@@ -1,10 +1,10 @@
 // Image Array (same folder as script.js and HTML)
 const images_logitech_g502_mouse = [
-  "logitech_g502_mouse_1.jpg",
-  "logitech_g502_mouse_2.jpg",
-  "logitech_g502_mouse_3.jpg",
-  "logitech_g502_mouse_4.jpg",
-  "logitech_g502_mouse_5.jpg"
+  "logitech_g502_mouse_1.webp",
+  "logitech_g502_mouse_2.webp",
+  "logitech_g502_mouse_3.webp",
+  "logitech_g502_mouse_4.webp",
+  "logitech_g502_mouse_5.webp"
 ];
 let currentImageIndex_logitech_g502_mouse = 0;
 
