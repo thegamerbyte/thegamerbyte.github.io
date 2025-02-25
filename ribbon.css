@@ -1,0 +1,58 @@
+/* Ribbon Styling */
+.ribbon {
+  position: relative; /* Changed from fixed to relative */
+  top: 0; /* Ensure it starts at the top */
+  left: 0;
+  width: 100%; /* Full width */
+  height: 50px; /* Height of the ribbon */
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 3; /* Ensure it's above other elements */
+  display: flex; /* Flexbox for layout */
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  animation: slideDownFadeIn 0.5s ease-out forwards; /* Animation */
+}
+
+/* Keyframes for Slide Down and Fade In */
+@keyframes slideDownFadeIn {
+  0% {
+    transform: translateY(-60px); /* Start above the viewport */
+    opacity: 0; /* Fully transparent */
+  }
+  100% {
+    transform: translateY(0); /* End at the top of the viewport */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Ribbon Buttons Styling */
+.ribbon_buttons {
+  margin: 0 20px; /* Space between buttons */
+  font-family: Arial, sans-serif; /* Clean font */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  position: relative; /* Needed for pseudo-element */
+  text-decoration: none; /* Remove default underline */
+  text-align: center; /* Center text inside the button */
+  width: 120px; /* Fixed width for all buttons */
+  line-height: 24px; /* Reduced vertical height */
+}
+
+/* Underline Effect */
+.ribbon_buttons::after {
+  content: ""; /* Empty content */
+  position: absolute; /* Positioned relative to the button */
+  bottom: -5px; /* Position below the text */
+  left: 0; /* Start from the left */
+  width: 0; /* Initial width */
+  height: 2px; /* Thickness of the underline */
+  background-color: white; /* Underline color */
+  transition: all 0.3s ease-out; /* Smooth transition */
+}
+
+/* Hover Effect */
+.ribbon_buttons:hover::after {
+  width: 100%; /* Expand to full width */
+  left: 0; /* Align to the left edge */
+}
