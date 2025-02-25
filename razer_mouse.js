@@ -1,10 +1,10 @@
 // Image Array (same folder as script.js and HTML)
 const images_razer_mouse = [
-  "razer_mouse_1.jpg",
-  "razer_mouse_2.jpg",
-  "razer_mouse_3.jpg",
-  "razer_mouse_4.jpg",
-  "razer_mouse_5.jpg"
+  "razer_mouse_1.webp",
+  "razer_mouse_2.webp",
+  "razer_mouse_3.webp",
+  "razer_mouse_4.webp",
+  "razer_mouse_5.webp"
   // Add more like "image_3.jpg" here as needed
 ];
 let currentImageIndex_razer_mouse = 0;
