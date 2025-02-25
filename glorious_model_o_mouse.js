@@ -1,8 +1,8 @@
 // Image Array (same folder as script.js and HTML)
 const images_glorious_model_o_mouse = [
-    "glorious_model_o_mouse_1.jpg",
-    "glorious_model_o_mouse_2.jpg",
-    "glorious_model_o_mouse_3.jpg"
+    "glorious_model_o_mouse_1.webp",
+    "glorious_model_o_mouse_2.webp",
+    "glorious_model_o_mouse_3.webp"
     // Add more like "image_3.jpg" here as needed
   ];
   let currentImageIndex_glorious_model_o_mouse = 0;
