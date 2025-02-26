@@ -1,9 +1,9 @@
 // Image Array (same folder as script.js and HTML)
 const images_keychron_v4_keyboard = [
-    "keychron_v4_keyboard_1.jpg",
-    "keychron_v4_keyboard_2.jpg",
-    "keychron_v4_keyboard_3.jpg",
-    "keychron_v4_keyboard_4.jpg"
+    "keychron_v4_keyboard_1.webp",
+    "keychron_v4_keyboard_2.webp",
+    "keychron_v4_keyboard_3.webp",
+    "keychron_v4_keyboard_4.webp"
     // Add more like "image_3.jpg" here as needed
   ];
   let currentImageIndex_keychron_v4_keyboard = 0;
