@@ -1,8 +1,8 @@
 // Image Array (same folder as script.js and HTML)
 const images_ajazz_ak33_mechanical = [
-    "ajazz_ak33_mechanical_1.jpg",
-    "ajazz_ak33_mechanical_2.jpg",
-    "ajazz_ak33_mechanical_3.jpg"
+    "ajazz_ak33_mechanical_1.webp",
+    "ajazz_ak33_mechanical_2.webp",
+    "ajazz_ak33_mechanical_3.webp"
     // Add more like "image_3.jpg" here as needed
   ];
   let currentImageIndex_ajazz_ak33_mechanical = 0;
