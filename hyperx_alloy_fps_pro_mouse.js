@@ -1,8 +1,8 @@
 // Image Array (same folder as script.js and HTML)
 const images_hyper_x_alloy_fps_pro_mouse = [
-    "hyper_x_alloy_fps_pro_mouse_1.jpg",
-    "hyper_x_alloy_fps_pro_mouse_2.jpg",
-    "hyper_x_alloy_fps_pro_mouse_3.jpg"
+    "hyper_x_alloy_fps_pro_mouse_1.webp",
+    "hyper_x_alloy_fps_pro_mouse_2.webp",
+    "hyper_x_alloy_fps_pro_mouse_3.webp"
   ];
   let currentImageIndex_hyper_x_alloy_fps_pro_mouse = 0;
   
